@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=PT+Sans&display=swap');
+body {
+    width: 1400px;
+    margin: auto;
+
+}
+.header-navigation {
+    width: 1400px;
+    height: 230px;
+    background-image: url("image/sloy1.png");
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-logo {
+    margin-left: 210px;
+}
+.header-contact {
+    width: 280px;
+    margin-right: 210px;
+}
+.contact {
+    letter-spacing: 0.7px;
+    margin: 0;
+    padding: 0;
+    text-align: end;
+    font-size: 40px;
+    list-style: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.contact li  a {
+    text-decoration: none;
+    color: black;
+}
+.site-navigation {
+    width: 1400px;
+    height: 80px;
+    background-image: url("image/sloy3.png");
+
+}
+.navigation {
+    list-style: none;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation a{
+    text-decoration: none;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+}
+.navigation a:hover {
+    text-decoration: underline;
+}
+.marker {
+    padding: 0 15px 0 15px;
+}
+.main-navigation {
+    width: 1400px;
+    height: 480px;
+    background-image: url("image/slider.png");
+    background-size: contain;
+    background-position: bottom;
+    margin-bottom: 30px;
+}
+.content {
+    width: 1400px;
+    height: 755px;
+    display: flex;
+    justify-content: space-between;
+}
+.news-list {
+    width: 350px;
+    height: 560px;
+    margin-left: 210px;
+    background-image: url("image/sloy9.png");
+}
+.news-list h1 {
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    padding-left: 34px;
+    margin: 9px 0 24px 0;
+    letter-spacing: 2px;
+}
+.list {
+    list-style-type: none;
+    padding: 0 48px 0 34px;
+}
+.list li {
+    margin-bottom: 31px;
+}
+.list h4 {
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: lighter;
+    margin: 0;
+    padding-bottom: 2px;
+
+}
+.list p {
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    margin: 0;
+    letter-spacing: 0.4px;
+}
+.news-list a {
+    color: white;
+    font-size: 14px;
+    margin-left: 195px;
+}
+.info {
+    width: 571px;
+    height: 560px;
+    margin-right: 210px;
+    color: black;
+    font-family: 'PT Sans', sans-serif;
+}
+.info h1 {
+    font-size: 40px;
+    letter-spacing: 1.8px;
+    padding-left: 3px;
+    margin: 8px 0 16px 0;
+}
+.info p {
+    font-size: 14px;
+    padding-left: 3px;
+    letter-spacing: 0.3px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.main-footer {
+    width: 1400px;
+    height: 220px;
+    background-image: url("image/footer.png");
+}
+.main-container {
+    width: 980px;
+    height: 170px;
+    padding-top: 46px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 210px 0 210px;
+}
+.container {
+    width: 480px;
+    height: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo {
+    width: 230px;
+    height: 50px;
+    display: flex;
+    align-items: start;
+}
+.image {
+    padding-top: 4px;
+}
+.link {
+    margin-left: 10px;
+    color: white;
+}
+.link p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+.link a {
+    color: white;
+}
+.footer-company p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    color: white;
+}
+.footer-company a {
+    color: white;
+}
+.footer-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-list a {
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+}
+.footer-list li {
+    margin-bottom: 8px;
+}
+.main-list {
+    width: 129px;
+}
