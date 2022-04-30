@@ -6,7 +6,7 @@ body {
 
 }
 .header-navigation {
-    width: 1400px;
+    max-width: 1400px;
     height: 230px;
     background-image: url("image/sloy1.png");
     display: flex;
@@ -33,12 +33,14 @@ body {
     text-decoration: none;
     color: black;
 }
+
 .site-navigation {
     width: 1400px;
     height: 80px;
     background-image: url("image/sloy3.png");
 
 }
+
 .navigation {
     list-style: none;
     height: 100%;
@@ -203,4 +205,8 @@ body {
 }
 .main-list {
     width: 129px;
+}
+
+@media (max-width: 768px) {
+
 }
